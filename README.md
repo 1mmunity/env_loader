@@ -1,7 +1,7 @@
 Simple rust environment variable loader.  
 Used for practicing my rust experience.  
 
-Example Usage: `[./src/main.rs](./src/main.rs)`  
+Example Usage: [`./src/main.rs`](./src/main.rs)
 
 main.rs
 ```rs
