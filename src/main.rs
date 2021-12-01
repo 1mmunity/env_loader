@@ -10,7 +10,7 @@ fn main() {
 }
 
 fn print_all(vars: &[&str]) -> () {
-    let env = EnvLoader::new(".env");
+    let env = EnvLoader::new(".env.example");
     for var in vars {
         println!("{} = \"{}\"", var,
             match &env {
