@@ -9,8 +9,8 @@ mod env_loader;
 use env_loader::EnvLoader;
 
 fn main() {
-    let loader = EnvLoader::new(".env");
-    println!("{}", loader.get("MY_VAR").unwrap());
+    let loader = EnvLoader::new(".env.example");
+    println!("{}", loader.unwrap().get("MY_VAR").unwrap());
     // Hello, World!
 }
 ```  
